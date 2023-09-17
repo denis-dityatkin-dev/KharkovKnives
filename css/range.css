@@ -1,0 +1,36 @@
+
+.noUi-connect {
+  background: #141414;
+}
+.noUi-target {
+  box-shadow: 0px 4px 20px rgba(232, 170, 49, 0.3);
+  border: none;
+  background: #141414;
+}
+.noUi-handle {
+  background: #e8aa31;
+  border-radius: 50%;
+  box-shadow: 0px 4px 20px rgba(232, 170, 49, 0.3);
+  /* position: relative; */
+}
+.noUi-handle:before {
+  content: "";
+  position: absolute;
+  background-color: #141414;
+  width: 12px;
+  height: 12px;
+  top: 2px;
+  left: 2px;
+  border-radius: 50%;
+}
+.noUi-horizontal {
+  height: 1px;
+  background-color: #e8aa31;
+}
+.noUi-horizontal .noUi-handle {
+  width: 18px;
+  height: 18px;
+  right: -9px;
+  top: -9px;
+  cursor: pointer;
+}
